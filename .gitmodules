@@ -1,0 +1,3 @@
+[submodule "vim/Dotfiles"]
+	path = vim/Dotfiles
+	url = https://github.com/haridas/Dotfiles.git
