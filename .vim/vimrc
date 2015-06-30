@@ -62,6 +62,7 @@ set wildignore=*.bak,*.o,*.e,*~ " wildmenu: ignore these extensions
 set wildmenu                    " command-line completion in an enhanced mode
 set cursorline                  " 设置下划线
 set wrap                        " 自动换行
+set nobackup                    " 设置不自动备份
 "-------------------------------------------------------------------------------
 " Airline settings
 "-------------------------------------------------------------------------------
