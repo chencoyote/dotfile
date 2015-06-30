@@ -4,6 +4,7 @@ all:
 
 install:
 	@cp ./.vim ~/ -fr
-	@cp ./bash/* ~/ -fr
+	@cp ./bash/.bash_profile ~/ -fr
+	@cp ./bash/.bashrc ~/ -fr
 	vim +PluginInstall
 	vim -c"Helptags" -c quit
